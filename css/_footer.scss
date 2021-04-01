@@ -1,0 +1,26 @@
+.footer {
+  background: $footerBg;
+  padding: 1rem;
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    @include breakpoint(large) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .social {
+      padding: 1rem;
+
+      a {
+        margin: 1rem;
+      }
+    }
+  }
+}

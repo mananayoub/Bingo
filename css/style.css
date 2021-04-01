@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+html {
+  font-size: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sb {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  padding: 0.8rem;
+}
+
+header {
+  background: #1c2431;
+  padding: 1.5625rem 1.25rem;
+}
+
+header a {
+  font-size: 0.78rem;
+  padding: 0.8rem;
+}
+
+@media screen and (min-width: 999px) {
+  header a {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
+header .header-items a:hover {
+  border-bottom: 1.5px solid #fff;
+}
+
+@media screen and (min-width: 999px) {
+  header {
+    padding: 2.1875rem 2.5rem;
+  }
+}
+
+.hero {
+  background-color: #1c2431;
+  text-align: center;
+  padding: 1.875rem;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 25rem;
+}
+
+.hero h1 {
+  max-width: 42.375rem;
+  margin: 15px auto;
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+.hero p {
+  max-width: 36rem;
+  margin: auto;
+  font-size: 1.1rem;
+  padding-bottom: 17px;
+}
+
+.features {
+  background: #202a3c;
+  padding: 1.875rem;
+}
+
+.features .features-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 999px) {
+  .features .features-grid {
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.features .feature {
+  text-align: center;
+  padding: 1.875rem;
+}
+
+.features .feature > i {
+  color: #65e2d9;
+}
+
+.contact {
+  background: #1c2431;
+  padding: 1px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+}
+
+.contact form label {
+  display: block;
+  padding: 0.5rem;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.contact form input {
+  padding: 0.5rem;
+  width: 75%;
+  border-radius: 5px;
+}
+
+.contact form textarea {
+  padding: 0.7rem;
+  width: 88%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 999px) {
+  .contact form input {
+    width: 45%;
+  }
+  .contact form textarea {
+    width: 55%;
+  }
+}
+
+.contact .btn {
+  padding: 2rem;
+}
+
+.contact .btn button {
+  border: 0;
+  color: #fff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#65e2d9),
+    to(#339ecc)
+  );
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  font-size: 1rem;
+  padding: 16px 40px;
+  border-radius: 35px;
+  font-weight: 400;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.contact .btn button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#339ecc));
+  background: linear-gradient(to right, #339ecc);
+}
+
+.footer {
+  background: #0b1523;
+  padding: 1rem;
+}
+
+.footer .footer-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+@media screen and (min-width: 999px) {
+  .footer .footer-grid {
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer .footer-grid h2 {
+  text-align: center;
+}
+
+.footer .footer-grid .social {
+  padding: 1rem;
+}
+
+.footer .footer-grid .social a {
+  margin: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

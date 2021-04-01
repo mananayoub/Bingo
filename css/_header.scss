@@ -1,0 +1,24 @@
+header {
+  background: $introBg;
+  padding: 1.5625rem 1.25rem;
+
+  a {
+    font-size: 0.78rem;
+    padding: 0.8rem;
+
+    @include breakpoint(large) {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  .header-items {
+    a:hover {
+      border-bottom: 1.5px solid #fff;
+    }
+  }
+
+  @include breakpoint(large) {
+    padding: 2.1875rem 2.5rem;
+  }
+}

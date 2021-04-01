@@ -1,0 +1,22 @@
+.hero {
+  background-color: $introBg;
+  text-align: center;
+  padding: 1.875rem;
+
+  img {
+    width: 100%;
+    max-width: 25rem;
+  }
+  h1 {
+    max-width: 42.375rem;
+    margin: 15px auto;
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  p {
+    max-width: 36rem;
+    margin: auto;
+    font-size: 1.1rem;
+    padding-bottom: 17px;
+  }
+}
